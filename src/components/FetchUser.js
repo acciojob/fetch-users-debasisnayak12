@@ -43,7 +43,7 @@ const FetchUser = () => {
                      ) : users.length === 0 ? 
                     (
                         <tr>
-                            <td colSpan="4" style={{textAlign:"center", fontWeight: 800}}>No data found to display</td>
+                            <td colSpan="4" style={{textAlign:"center", fontWeight: 800}}>No data found to display.</td>
                         </tr>
                     ) : (
                         users.map((user) => (
